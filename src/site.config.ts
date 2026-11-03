@@ -17,6 +17,8 @@ export const site = {
   status: "Open to PhD positions",
   // Search Console ownership token (the "content" value of Google's HTML-tag method).
   googleSiteVerification: "c3PtMxqTpIvRKWjjQaU29cP6203fJ5YwqJWPoF2Um1c",
+  // GoatCounter account code (dashboard at https://<code>.goatcounter.com); empty disables analytics.
+  goatcounter: "rohollahnaeijian",
 
   links: [
     { label: "Google Scholar", href: "" },

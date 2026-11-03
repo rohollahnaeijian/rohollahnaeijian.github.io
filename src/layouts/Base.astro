@@ -50,6 +50,11 @@ const personLd = {
     <meta name="twitter:card" content={ogImage ? "summary_large_image" : "summary"} />
 
     <script type="application/ld+json" set:html={JSON.stringify(personLd)} />
+    {
+      import.meta.env.PROD && site.goatcounter && (
+        <script is:inline async data-goatcounter={`https://${site.goatcounter}.goatcounter.com/count`} src="https://gc.zgo.at/count.js" />
+      )
+    }
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
